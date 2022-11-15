@@ -43,18 +43,6 @@ header {
     transition: 0.25s;
 }
 
-@media (max-width: 991px) {
-    .navBtnHolder {
-        display: none;
-    }
-}
-
-@media (min-width: 992px) and (max-width: 1199px) {
-    .navbar-nav {
-        margin-right: 60px;
-        gap: 20px;
-    }
-}
 
 /* HERO SECTION */
 
@@ -1352,119 +1340,6 @@ footer a:hover {
     animation: pulse 2s ease-out infinite;
 }
 
-@media (min-width: 1200px) and (max-width: 1399px) {
-    .dot6 {
-        left: 90.3%;
-    }
-    .dotHolder {
-        max-width: 90%;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
-
-@media (max-width: 767px) {
-    #howItWorks button > .dot1Text {
-        display: none;
-    }
-    #howItWorks button > .dot2Text {
-        display: none;
-    }
-    #howItWorks button > .dot3Text {
-        display: none;
-    }
-    #howItWorks button > .dot4Text {
-        display: none;
-    }
-    #howItWorks button > .dot5Text {
-        display: none;
-    }
-    #howItWorks button > .dot6Text {
-        display: none;
-    }
-    .dot2 {
-        left: 10%;
-    }
-    .dot3 {
-        left: 21%;
-    }
-    .dot4 {
-        left: 32%;
-    }
-    .dot5 {
-        left: 43%;
-    }
-    .dot6 {
-        left: 55%;
-    }
-    .dot1,
-    .dot2,
-    .dot3,
-    .dot4,
-    .dot5,
-    .dot6 {
-        top: -16px;
-    }
-    .dotHolder {
-        max-width: 229.5px;
-        margin-top: 60px;
-        margin-right: auto;
-        margin-left: auto;
-    }
-    .howItWorksTitle {
-        padding-top: 100px;
-    }
-}
-
-@media (min-width: 992px) and (max-width: 1199px) {
-    .dotHolder {
-        max-width: 90%;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .dot2 {
-        left: 18%;
-    }
-    .dot3 {
-        left: 36%;
-    }
-    .dot4 {
-        left: 54%
-    }
-    .dot5 {
-        left: 72%;
-    }
-    .dot6 {
-        left: 88%;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-    .dotHolder {
-        max-width: 90%;
-        display: block;
-        margin-right: auto;
-        margin-left: auto;
-    }
-    .dot2 {
-        left: 17%;
-    }
-    .dot3 {
-        left: 34%;
-    }
-    .dot4 {
-        left: 51%;
-    }
-    .dot5 {
-        left: 68%;
-    }
-    .dot6 {
-        left: 83%;
-    }
-}
-
 #whatWeBuild {
     background-color: #f2f2f2;
     padding-bottom: 20px;
@@ -1545,5 +1420,132 @@ footer a:hover {
 
 #contactPage #contactUsAbout {
     padding-top: 20px;
+}
+
+@media (max-width: 991px) {
+    .navBtnHolder {
+        display: none;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .navbar-nav {
+        margin-right: 60px;
+        gap: 20px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .dotHolder {
+        max-width: 90%;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .dot2 {
+        left: 17%;
+    }
+    .dot3 {
+        left: 34%;
+    }
+    .dot4 {
+        left: 51%;
+    }
+    .dot5 {
+        left: 68%;
+    }
+    .dot6 {
+        left: 83%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .dotHolder {
+        max-width: 90%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .dot2 {
+        left: 18%;
+    }
+    .dot3 {
+        left: 36%;
+    }
+    .dot4 {
+        left: 54%
+    }
+    .dot5 {
+        left: 72%;
+    }
+    .dot6 {
+        left: 88%;
+    }
+}
+
+
+@media (max-width: 767px) {
+    #howItWorks button > .dot1Text {
+        display: none;
+    }
+    #howItWorks button > .dot2Text {
+        display: none;
+    }
+    #howItWorks button > .dot3Text {
+        display: none;
+    }
+    #howItWorks button > .dot4Text {
+        display: none;
+    }
+    #howItWorks button > .dot5Text {
+        display: none;
+    }
+    #howItWorks button > .dot6Text {
+        display: none;
+    }
+    .dot2 {
+        left: 10%;
+    }
+    .dot3 {
+        left: 21%;
+    }
+    .dot4 {
+        left: 32%;
+    }
+    .dot5 {
+        left: 43%;
+    }
+    .dot6 {
+        left: 55%;
+    }
+    .dot1,
+    .dot2,
+    .dot3,
+    .dot4,
+    .dot5,
+    .dot6 {
+        top: -16px;
+    }
+    .dotHolder {
+        max-width: 229.5px;
+        margin-top: 60px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .howItWorksTitle {
+        padding-top: 100px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .dot6 {
+        left: 90.3%;
+    }
+    .dotHolder {
+        max-width: 90%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
