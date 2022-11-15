@@ -1064,7 +1064,7 @@ footer a:hover {
 
 .dot2Text {
     position: relative;
-    bottom: 3.75em;
+    bottom: -3.75em;
     display: inline-block;
     white-space: nowrap;
     transform: translateX(-50%);
@@ -1088,7 +1088,7 @@ footer a:hover {
 
 .dot4Text {
     position: relative;
-    bottom: 3.75em;
+    bottom: -3.75em;
     display: inline-block;
     white-space: nowrap;
     transform: translateX(-50%);
@@ -1112,7 +1112,7 @@ footer a:hover {
 
 .dot6Text {
     position: relative;
-    bottom: 3.75em;
+    bottom: -3.75em;
     display: inline-block;
     white-space: nowrap;
     transform: translateX(-50%);
